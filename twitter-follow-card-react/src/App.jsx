@@ -1,3 +1,4 @@
+// @ts-nocheck
 import './App.css'
 import { TwitterFollowCard } from './TwitterFollowCard.jsx'
 
@@ -8,18 +9,18 @@ const users = [
     isFollowing: true
   },
   {
-    userName: 'pheralb',
-    name: 'Pablo H.',
+    userName: 'jomaoppa',
+    name: 'Joma',
     isFollowing: false
   },
   {
-    userName: 'PacoHdezs',
-    name: 'Paco Hdez',
+    userName: 'James-Gamboa',
+    name: 'James Gamboa',
     isFollowing: true
   },
   {
-    userName: 'TMChein',
-    name: 'Tomas',
+    userName: 'lexi_marvel_',
+    name: 'Lexi Marvel',
     isFollowing: false
   }
 ]
@@ -41,3 +42,4 @@ export function App () {
     </section>
   )
 }
+
